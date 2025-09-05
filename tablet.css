@@ -59,6 +59,9 @@
 .mainMenu a.active::after{
     display: none;
 }
+     .mainMenu a::after{
+    display: none;
+}
     .close-icon:hover {
         transform: rotate(180deg);
     }
@@ -501,4 +504,5 @@
         border-bottom: 2px solid #caa798;
         width: 100%;
     }
+
 }
